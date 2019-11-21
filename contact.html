@@ -8,31 +8,63 @@
     <link href="assets/css/style.css" rel="stylesheet">
 </head>
 <body>
-    <h1 id="title"><strong>Henry Lin</strong></h1>
+    <header>
+        <div class="headcon">
+            <h1 id="title"><strong>Henry Lin</strong></h1>
+                <ul>
+                    <li><a href="index.html">About</a>
+                    <li id="port"><a href="portfolio.html">Portfolio</a>
+                    <li id="contact"><a href="contact.html">Contact</a>
+                </ul>
+        </div>
+    </header>
+    <!-- <div class="container">
+        <div class="containertwo">
+            <div class="contact">
 
-    <div class="topnav">
-        <a class="active" href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
+                <h1>Contact</h1>
+                    
+                <hr>
 
+                <div class="sub">
+                    <ul>
+                        <li><label for="name">Name</label></li>
+                        <li><input type="text" id="name" name="name" placeholder="John Smith"></li>
+
+                        <li><label for="email">Email</label></li>
+                        <li><input type="text" id="email" name="email" placeholder="example@gmail.com"></li>
+
+                        <li><label for="message">Message</label>
+                        <li>><textarea id="message" name="message" placeholder="Write message.." style="height:200px"></textarea></li>
+
+                        <li><input type="submit" value="Submit"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <div class="container">
+        <form>
+          
+            <label for="name">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input id="submit" type="submit" value="Submit">
+          
+        </form>
     </div>
-    
-    <div class="contact">
 
-        <h1>Contact</h1>
-            
-        <hr>
-
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="John Smith">
-
-        <label for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="example@gmail.com">
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Write message.." style="height:200px"></textarea>
-
-        <input type="submit" value="Submit">
-    </div>
+    <footer>
+        <div class="foot">
+            <p>&copy; Copyright</p>
+        </div>
+    </footer>
 </body>
 </html>
