@@ -33,7 +33,7 @@ Below is the contact page. User will write his or her name, email address, and a
 To submit the user will click the submit button.
 ![Contact Page](assets/images/Contact.png"Contact Page")
 
-* [Credits](#credits)
+## Credits
 
 Thanks to UW Coding Boot Campy and our instructor Joe for guiding me through the process. 
 
